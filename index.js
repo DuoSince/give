@@ -1,5 +1,5 @@
 const axios = require("axios")
-const urls = ["https://global-reliable-donkey.glitch.me"]
+const urls = ["https://OwO-clone.djati09.repl.co"]
 setInterval(function() {
             urls.forEach(url => {
             axios.get(url).then(console.log("Pong at " + Date.now())).catch(() => {});
